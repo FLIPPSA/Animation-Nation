@@ -6526,6 +6526,13 @@ let cards = [
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
   },
+  {
+    artName: 'satisfying ball bounce',
+    pageLink: './Art/FLIPP/index.html',
+    imageLink: './Art/FLIPP/Bouncy.gif',
+    author: 'Joy',
+    githubLink: 'https://github.com/royranger'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

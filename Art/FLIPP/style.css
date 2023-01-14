@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(to right, rgb(139, 139, 137), rgb(97, 97, 97));
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+/* The spinner element */
+.spinner {
+    width: 30vw;
+    height: 30vw;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid rgb(41, 41, 41);
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+  
+/* Keyframes for the spin animation */
+@keyframes spin {
+    0% { transform: rotate(-10deg); }
+    100% { transform: rotate(350deg); }
+}
+
+/* The ball element */
+.ball {
+    position: relative;
+    top: 10vw;
+    right: 21vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: rgb(41, 41, 41);
+    position: relative;
+    animation: bounce 2s infinite ease-in;
+}
+  
+/* Keyframes for the bounce animation */
+@keyframes bounce {
+    0% { transform: translateY(-20.3vw); }
+    50% { transform: translateY(0.2vw); }
+    100% { transform: translateY(-20.3vw); }
+}
+  
